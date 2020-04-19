@@ -1,0 +1,91 @@
+export const families = [
+  {
+    id: 1,
+    totalMembers: 5,
+    male: 2,
+    female: 3,
+    address: "Address 1",
+    approved: false,
+  },
+  {
+    id: 2,
+    totalMembers: 3,
+    male: 2,
+    female: 1,
+    address: "Address 2",
+    approved: true,
+  },
+  {
+    id: 3,
+    totalMembers: 3,
+    male: 1,
+    female: 2,
+    address: "Address 3",
+    approved: true,
+  },
+  {
+    id: 4,
+    totalMembers: 4,
+    male: 4,
+    female: 4,
+    address: "Address 4",
+    approved: false,
+  },
+  {
+    id: 5,
+    totalMembers: 5,
+    male: 2,
+    female: 3,
+    address: "Address 5",
+    approved: true,
+  },
+  {
+    id: 6,
+    totalMembers: 2,
+    male: 1,
+    female: 1,
+    address: "Address 6",
+    approved: false,
+  },
+  {
+    id: 7,
+    totalMembers: 5,
+    male: 2,
+    female: 3,
+    address: "Address 7",
+    approved: false,
+  },
+];
+
+export const reports = [
+  {
+    id: 1,
+    name: "Nazmul",
+    complaint: "Did not receive required amount of Rice",
+    area: "Bashundhara",
+  },
+  {
+    id: 2,
+    name: "Tanveer",
+    complaint: "Did not receive required amount of Pulse",
+    area: "Bashundhara",
+  },
+  {
+    id: 3,
+    name: "Fabliha",
+    complaint: "Did not receive required amount of Potato, Rice",
+    area: "Uttara",
+  },
+  {
+    id: 4,
+    name: "Zishan",
+    complaint: "Did not receive required amount of Rice, Pulse",
+    area: "Mohammadpur",
+  },
+  {
+    id: 5,
+    name: "Hossain",
+    complaint: "Did not receive required amount of Oil",
+    area: "Banani",
+  },
+];
