@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="@dimen/standard_32">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/LargeText"
+        android:textStyle="bold"
+        android:text="@string/newMemberInfo"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_18"
+        android:hint="@string/name"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextColor="@color/brownLight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etVoterId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_8"
+        android:hint="@string/voterId"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextColor="@color/brownLight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/etRelation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_8"
+        android:hint="@string/relation"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelTextColor="@color/brownLight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_8"
+        android:orientation="horizontal"
+        android:gravity="end"
+        >
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_marginEnd="@dimen/standard_16"
+            android:text="@string/cancel"
+            android:textColor="?colorAccent"
+            />
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="@string/add"
+            android:textColor="?colorAccent"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

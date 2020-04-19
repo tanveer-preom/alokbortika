@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/standard_32"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iedcr"
+        android:textColor="?colorAccent" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/standard_8"
+        android:background="@color/transparentBlack" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01401184551"
+        android:drawableLeft="@drawable/ic_local_phone_24dp"
+        android:drawablePadding="@dimen/standard_8"
+        android:layout_marginTop="@dimen/standard_8"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01401184554"
+        android:drawableLeft="@drawable/ic_local_phone_24dp"
+        android:drawablePadding="@dimen/standard_8"
+        android:layout_marginTop="@dimen/standard_8"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01401184555"
+        android:drawableLeft="@drawable/ic_local_phone_24dp"
+        android:drawablePadding="@dimen/standard_8"
+        android:layout_marginTop="@dimen/standard_8"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01401184556"
+        android:drawableLeft="@drawable/ic_local_phone_24dp"
+        android:drawablePadding="@dimen/standard_8"
+        android:layout_marginTop="@dimen/standard_8"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01401184559"
+        android:drawableLeft="@drawable/ic_local_phone_24dp"
+        android:drawablePadding="@dimen/standard_8"
+        android:layout_marginTop="@dimen/standard_8"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01401184560"
+        android:drawableLeft="@drawable/ic_local_phone_24dp"
+        android:drawablePadding="@dimen/standard_8"
+        android:layout_marginTop="@dimen/standard_8"
+        />
+
+</LinearLayout>

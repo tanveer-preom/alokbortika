@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "90214383079",
+    "firebase_url": "https://alokbortika-2f04f.firebaseio.com",
+    "project_id": "alokbortika-2f04f",
+    "storage_bucket": "alokbortika-2f04f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90214383079:android:abbedaf9c9e964ea559142",
+        "android_client_info": {
+          "package_name": "com.callfornation.savetheirsouls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90214383079-7jpqcern7cc63o119jl6tn778hpg52to.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.callfornation.savetheirsouls",
+            "certificate_hash": "ab0e710717a92dbd2155350b813cb1c21dcdd5a1"
+          }
+        },
+        {
+          "client_id": "90214383079-57dihid0q0oeql7e9ktt3no1f0haql2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq_9mj3wZIQ01SspRUHsjQNT1GrgkWlaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90214383079-57dihid0q0oeql7e9ktt3no1f0haql2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90214383079:android:3404af4fc5bce2ee559142",
+        "android_client_info": {
+          "package_name": "com.callfornation.savetheirsoulsvolunteer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90214383079-r8puohee9v27fohf7r5ldmafrucr341e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.callfornation.savetheirsoulsvolunteer",
+            "certificate_hash": "ab0e710717a92dbd2155350b813cb1c21dcdd5a1"
+          }
+        },
+        {
+          "client_id": "90214383079-57dihid0q0oeql7e9ktt3no1f0haql2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq_9mj3wZIQ01SspRUHsjQNT1GrgkWlaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90214383079-57dihid0q0oeql7e9ktt3no1f0haql2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
